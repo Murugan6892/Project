@@ -1,2 +1,11 @@
+pipeline {
+    agent any
 
-eef
+    stages {
+        stage('Checkout') {
+            steps {
+                echo 'Checkout completed'
+            }
+        }
+    }
+}
